@@ -184,6 +184,9 @@ abstract class CValidator extends CComponent
 			$validator->params=$params;
 			if(isset($params['skipOnError']))
 				$validator->skipOnError=$params['skipOnError'];
+			
+			if(isset($params['when']))
+				$validator->skipOnError=$params['when'];
 		}
 		else
 		{
