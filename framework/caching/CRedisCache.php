@@ -90,6 +90,8 @@ class CRedisCache extends CCache
 		);
 		if ($this->_socket)
 		{
+			if ($this->timeout !== null)
+				stream_set_timeout($this->_socket, $timeout = (int)$this->timeout, (int)(($this->timeout - $timeout) * 1000000));
 			if($this->password!==null)
 				$this->executeCommand('AUTH',array($this->password));
 			$this->executeCommand('SELECT',array($this->database));
