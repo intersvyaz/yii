@@ -3,7 +3,7 @@ Yii Web Programming Framework
 
 Thank you for choosing Yii - a high-performance component-based PHP framework.
 
-[![Build Status](https://travis-ci.org/intersvyaz/yii.svg?branch=master)](https://travis-ci.org/intersvyaz/yii)
+[![Build Status](https://api.travis-ci.com/intersvyaz/yii.png)](http://travis-ci.com/intersvyaz/yii)
 
 > Note that Yii 1.1 [has reached end of life](http://www.yiiframework.com/news/90/update-on-yii-1-1-support-and-end-of-life/)
   and won't receive updates except security fixes. Please start new projects using [Yii 2](https://github.com/yiisoft/yii2).
