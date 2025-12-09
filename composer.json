@@ -82,9 +82,6 @@
     "replace": {
       "yiisoft/yii": "~1.1"
     },
-    "conflict": {
-      "yiisoft/yii": "~1.1"
-    },
 	"autoload": {
 		"classmap" : [
 			"framework/YiiBase.php",
